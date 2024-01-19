@@ -1,0 +1,81 @@
+#nav{
+    background-color: #a92ba0;
+}
+.first {
+  border-radius: 5%;
+}
+.myfont {
+    font-family: 'Sacramento', cursive;
+    color: aliceblue;
+    font-size: 150px;
+}
+.white {
+    color:rgb(255, 255, 255)
+}
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #d723cb, #30d0c0);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .who {
+  background-color: rgb(205, 185, 246);
+  }
+  .circle {
+
+    grid-area: 2/4/5/5;
+  }
+  .whocon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 1fr 0.5fr 1fr 0.5fr;
+  }
+  #who1 {
+    grid-area:2/1/2/2;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+  }
+  #who2{
+    grid-area: 3/1/4/3;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+#contact {
+  background-color: rgb(205, 185, 246);
+}
+.justify {
+  display: flex;
+  justify-content: start;
+  color: white;
+}
+.big {
+  font-size: 80px;
+}
+.work {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #f0a7ea;
+}
+#school {
+  display: flex;
+  flex-basis: 500px;
+  gap:640px;
+}
+.white {
+  color: azure;
+}
